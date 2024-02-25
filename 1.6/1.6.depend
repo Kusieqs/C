@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1708877857 source:c:\users\konra\desktop\c\1.6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
