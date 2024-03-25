@@ -35,6 +35,7 @@ jobs:
         fi
       shell: bash
     - name: Upload Artifacts for Unix/Linux
+      if: matrix.os == 'ubuntu-latest'
       uses: actions/upload-artifact@v3
       with:
         name: compiled-unix-linux
